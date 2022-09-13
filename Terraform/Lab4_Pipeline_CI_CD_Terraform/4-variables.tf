@@ -31,8 +31,8 @@ variable "AzureTenandID" {
 }
 
 variable "databaseConnectionString" {
-  type = string
-  value = "server=127.0.0.1;uid=root;pwd=12345;database=test" # SAMPLE for checkov.Io, tfsec or terrascan file
+  type    = string
+  default = "server=127.0.0.1;uid=root;pwd=12345;database=test" # SAMPLE for checkov.Io, tfsec or terrascan file
 }
 
 
