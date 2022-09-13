@@ -30,6 +30,11 @@ variable "AzureTenandID" {
   type = string
 }
 
+variable "databaseConnectionString" {
+  type = "string"
+  vamue = "server=127.0.0.1;uid=root;pwd=12345;database=test" # SAMPLE for checkov.Io, tfsec or terrascan file
+}
+
 
 
 
