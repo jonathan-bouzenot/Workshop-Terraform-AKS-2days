@@ -50,7 +50,7 @@ jobs:
         uses: bridgecrewio/checkov-action@v12.1347.0
         with:
           # directory with infrastructure code to scan
-          directory: ./Terraform/Lab4_Pipeline_CI_CD_Terraform # optional, default is .
+          directory: Terraform/Lab4_Pipeline_CI_CD_Terraform/ # optional, default is .
           # Environment variable name of the Bridgecrew API key from Bridgecrew app
           api-key: c7205e3d-4808-4bd3-bf9b-12a84eb86ecc # optional
           # The format of the output. cli, json, junitxml, github_failed_only, or sarif
